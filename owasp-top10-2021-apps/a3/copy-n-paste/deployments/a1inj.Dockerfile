@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.21.7
 
 WORKDIR /go/src/github.com/globocom/secDevLabs/owasp-top10-2021-apps/a3/copy-n-paste/app
 
