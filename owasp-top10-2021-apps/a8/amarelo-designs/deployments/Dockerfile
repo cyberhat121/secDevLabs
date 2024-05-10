@@ -1,4 +1,4 @@
-FROM python:3.12.0a5-slim
+FROM python:3.13.0b1-slim
 WORKDIR /app
 ADD app/requirements.txt /app/requirements.txt
 RUN apt-get update && apt-get -y install netcat && apt-get clean
