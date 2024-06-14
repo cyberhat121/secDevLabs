@@ -18,7 +18,7 @@ ARG env=prod
 
 RUN npm run build
 
-FROM nginx:1.23.3-alpine
+FROM nginx:1.26.1-alpine
 
 COPY --from=node /app/dist/streaming /usr/share/nginx/html
 
