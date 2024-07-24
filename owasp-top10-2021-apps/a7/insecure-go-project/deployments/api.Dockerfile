@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.23rc2
 
 WORKDIR /go/src/github.com/globocom/secDevLabs/owasp-top10-2021-apps/a7/insecure-go-project/app
 
